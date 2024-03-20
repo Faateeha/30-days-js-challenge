@@ -18,8 +18,9 @@ var jsonToMatrix = function(arr) {
                 row.push(keyToVal[key]);
             } else {
               row.push("");
-        }
+           }
         res.push(row);
+        }
     }
     return res;
 
